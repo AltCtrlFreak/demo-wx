@@ -29,4 +29,9 @@
   <build>
     <finalName>demo-wx</finalName>
   </build>
+
+  <scm>
+    <connection>${scmRoot}demo-wx.git</connection>
+  </scm>
+
 </project>
