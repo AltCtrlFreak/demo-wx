@@ -4,7 +4,7 @@
     <artifactId>demo-parent</artifactId>
     <groupId>com.meteogroup</groupId>
     <version>1.3-SNAPSHOT</version>
-    <relativePath>../release-demo/pom.xml</relativePath>
+    <relativePath>../pom.xml</relativePath>
   </parent>
   <artifactId>demo-wx</artifactId>
   <packaging>war</packaging>
