@@ -4,12 +4,20 @@
   <groupId>com.meteogroup</groupId>
   <artifactId>demo-wx</artifactId>
   <packaging>war</packaging>
-  <version>1.6</version>
+  <version>1.8-SNAPSHOT</version>
   <name>demo-wx Maven Webapp</name>
   <url>http://maven.apache.org</url>
     <properties>
-        <scmRoot>scm:git:git@github.com:AltCtrlFreak/demo-wx.git</scmRoot>
+        <scmRoot>scm:git:https://AltCtrlFreak@github.com/AltCtrlFreak/demo-wx.git</scmRoot>
     </properties>
+
+<parent> 
+  <groupId>com.meteogroup</groupId> 
+  <artifactId>parent</artifactId> 
+  <version>1.8-SNAPSHOT</version>
+  <relativePath>../release-demo/pom.xml</relativePath>
+</parent> 
+
 
   <dependencies>
     <dependency>
@@ -21,7 +29,7 @@
     <dependency>
       <groupId>com.meteogroup</groupId>
       <artifactId>road-demo</artifactId>
-      <version>1.6</version>
+      <version>1.8-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
@@ -40,9 +48,9 @@
     </plugins> </build>
 
   <scm>
-    <connection>scm:git:git@github.com:AltCtrlFreak/demo-wx.git</connection>
-    <url>scm:git:git@github.com:AltCtrlFreak/demo-wx.git</url>
-    <developerConnection>scm:git:git@github.com:AltCtrlFreak/demo-wx.git</developerConnection>
+    <connection>scm:git:https://AltCtrlFreak@github.com/AltCtrlFreak/demo-wx.git</connection>
+    <url>scm:git:https://AltCtrlFreak@github.com/AltCtrlFreak/demo-wx.git</url>
+    <developerConnection>scm:git:https://AltCtrlFreak@github.com/AltCtrlFreak/demo-wx.git</developerConnection>
     <tag>release-demo-1.6</tag>
   </scm>
 
