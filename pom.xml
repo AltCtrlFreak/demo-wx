@@ -43,7 +43,6 @@
   <scm>
     <connection>${scmRoot}demo-wx.git</connection>
     <developerConnection>${scmRoot}demo-wx.git</developerConnection>
-    <tag>demo-parent-1.2</tag>
   </scm>
 
 </project>
