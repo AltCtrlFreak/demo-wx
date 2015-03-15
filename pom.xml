@@ -4,7 +4,7 @@
   <groupId>com.meteogroup</groupId>
   <artifactId>demo-wx</artifactId>
   <packaging>war</packaging>
-  <version>2.3</version>
+  <version>3.3</version>
   <name>demo-wx Maven Webapp</name>
   <url>http://maven.apache.org</url>
     <properties>
@@ -23,7 +23,7 @@
     <dependency>
       <groupId>com.meteogroup</groupId>
       <artifactId>road-demo</artifactId>
-      <version>2.3</version>
+      <version>3.3</version>
     </dependency>
   </dependencies>
   <build>
